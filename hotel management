@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .head {
+        background-color: #007BFF;
+        color: white;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .logo {
+        margin-right: 20px;
+      }
+      .name {
+        font-size: 2.5em;
+        font-weight: bold;
+      }
+      .menu {
+        background-color: #343a40;
+        padding: 10px 0;
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .menu ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+      .menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.1em;
+        padding: 5px 10px;
+        transition: background-color 0.3s;
+      }
+      .menu ul li a:hover {
+        background-color: #007BFF;
+        border-radius: 5px;
+      }
+      .content {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+      }
+      .content h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .content p {
+        font-size: 1.1em;
+        line-height: 1.6;
+      }
+      .section {
+        margin-bottom: 40px;
+      }
+      footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: 20px;
+      }
+      footer p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="head">
+      <div class="logo">
+        <img src="hotel management.png" height="100" width="100" alt="Hotel Management Logo">
+      </div>
+      <div class="name">NAMBI VANGA SANDOSAMA PONGAA</div>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#registration">REGISTRATION</a></li>
+      </ul>
+    </nav>
+    <div class="content" id="home">
+      <h1>Welcome to Our Hotel Management System</h1>
+      <img src="Hotel Doormen Flat Composition.jpeg" alt="Hotel Image">
+      <p>
+        NAMBI VANGA SANDOSAMA PONGAA <br> 
+      </p>
+      <p>
+        Welcome to our esteemed hotel, a haven of luxury and comfort meticulously crafted to provide an unparalleled guest experience. <br>Our hotel boasts elegantly designed rooms equipped with modern amenities, ensuring a perfect blend of style and convenience.<br> Guests can indulge in exquisite culinary delights at our in-house restaurant, which offers a diverse menu featuring local and international cuisines prepared by our renowned chefs.<br> Our state-of-the-art facilities include a fully equipped fitness center, a serene spa for ultimate relaxation, and versatile event spaces ideal for business meetings and social gatherings. With a dedicated team committed to delivering exceptional service, our hotel promises to make your stay a memorable one, whether you're here for business or leisure.
+      </p>
+    </div>
+    <div class="content section" id="about">
+      <h1>About Us</h1>
+      <p>
+        NAMBI VANGA SANDOSAMA PONGAA is a premier hotel that offers unparalleled luxury and comfort. Our hotel is designed to provide guests with a unique experience, combining modern amenities with traditional hospitality. We strive to exceed our guests' expectations and ensure a memorable stay.
+      </p>
+    </div>
+    <div class="content section" id="services">
+      <h1>Our Services</h1>
+      <ul>
+        <li>Luxury Accommodation</li>
+        <li>Exquisite Dining</li>
+        <li>Free High-Speed WiFi</li>
+        <li>24/7 Room Service</li>
+        <li>Fully Equipped Fitness Center</li>
+        <li>Spa and Wellness Center</li>
+        <li>Conference and Event Facilities</li>
+        <li>Concierge Services</li>
+        <li>Airport Shuttle</li>
+        <li>Car Rental Services</li>
+      </ul>
+    </div>
+    <div class="content section" id="contact">
+      <h1>Contact Us</h1>
+      <p>
+        Address: 123 Luxury Ave, Comfort City, Happyland<br>
+        Phone: +123 456 7890<br>
+        Email: <a href="mailto:afsal@hotelmanagement.com">info@hotelmanagement.com</a>
+      </p>
+    </div>
+    <div class="content section" id="registration">
+      <h1>Registration</h1>
+      <p>
+        To register for our exclusive membership and enjoy special benefits, please fill out the registration form <a href="#">here</a>.
+      </p>
+    </div>
+    <footer>
+      <p>&copy; 2024 NAMBI VANGA SANDOSAMA PONGAA. All rights reserved.</p>
+      <p>Contact us: <a href="mailto:afsal@hotelmanagement.com">afsal@hotelmanagement.com</a></p>
+    </footer>
+  </body>
+</html>
